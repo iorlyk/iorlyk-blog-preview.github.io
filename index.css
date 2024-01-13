@@ -1,4 +1,4 @@
-body {
+html {
     width: 1440px;
     height: 100vh;
     background-color: hsl(47, 88%, 63%);
@@ -9,7 +9,7 @@ body {
     align-items: center;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 40%;
     width: 380px;
     height: 520px;
     background-color: hsl(0, 0%, 100%);
@@ -59,8 +59,8 @@ footer {
     left: 40%;
 }
 @media screen and (max-width: 600px) {
-    body {
-        width: 375px;
+    html {
+        width: 620px;
         height: 100vh;
         background-color: hsl(47, 88%, 63%);
     }
@@ -71,30 +71,30 @@ footer {
         position: absolute;
         top: 20%;
         left: 40%;
-        width: 100px;
-        height: 130px;
+        width: 190px;
+        height: 260px;
         background-color: hsl(0, 0%, 100%);
-        border-radius: 20px;
-        box-shadow: 3px 3px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
     }
     .text {
         width: auto;
-        margin-left: 6px;
+        margin-left: 12px;
     }
     p {
         max-width: fit-content;
         font-family: 'Figtree', Helvetica, sans-serif;
-        font-size: 4px;
+        font-size: 8px;
     }
     p:first-child {
-        padding: 3px;
+        padding: 5px;
         background-color: hsl(47, 88%, 63%);
         border-radius: 5px;
         font-weight: 800;
     }
     p:nth-child(3){
         font-weight: 800;
-        font-size: 6px;
+        font-size: 11px;
     }
     p:nth-child(4) {
         color: hsl(0, 0%, 50%);
@@ -108,11 +108,11 @@ footer {
     .illustration-article {
         width: 90%;
         margin-top: 5%;
-        border-radius: 20px;
+        border-radius: 10px;
     }
     .img-av {
-        width: 9px;
-        margin-right: 3px;
+        width: 17px;
+        margin-right: 5px;
     }
     footer {
         position: absolute;
