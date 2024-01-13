@@ -1,0 +1,122 @@
+body {
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 380px;
+    height: 520px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+.text {
+    width: auto;
+    margin-left: 25px;
+}
+p {
+    max-width: fit-content;
+    font-family: 'Figtree', Helvetica, sans-serif;
+    font-size: 16px;
+}
+p:first-child {
+    padding: 10px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-weight: 800;
+}
+p:nth-child(3){
+    font-weight: 800;
+    font-size: 22px;
+}
+p:nth-child(4) {
+    color: hsl(0, 0%, 50%);
+}
+p:last-child {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+
+}
+.illustration-article {
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.img-av {
+    width: 35px;
+    margin-right: 10px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+@media screen and (max-width: 600px) {
+    body {
+        width: 375px;
+        height: 100vh;
+        background-color: hsl(47, 88%, 63%);
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        width: 100px;
+        height: 130px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        box-shadow: 3px 3px;
+    }
+    .text {
+        width: auto;
+        margin-left: 6px;
+    }
+    p {
+        max-width: fit-content;
+        font-family: 'Figtree', Helvetica, sans-serif;
+        font-size: 4px;
+    }
+    p:first-child {
+        padding: 3px;
+        background-color: hsl(47, 88%, 63%);
+        border-radius: 5px;
+        font-weight: 800;
+    }
+    p:nth-child(3){
+        font-weight: 800;
+        font-size: 6px;
+    }
+    p:nth-child(4) {
+        color: hsl(0, 0%, 50%);
+    }
+    p:last-child {
+        display: flex;
+        align-items: center;
+        font-weight: 800;
+    
+    }
+    .illustration-article {
+        width: 90%;
+        margin-top: 5%;
+        border-radius: 20px;
+    }
+    .img-av {
+        width: 9px;
+        margin-right: 3px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
+}
