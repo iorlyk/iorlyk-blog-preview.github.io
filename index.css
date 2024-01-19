@@ -33,6 +33,9 @@ body p {
   flex-direction: column;
   justify-content: space-around;
 }
+.content__title:hover {
+  color: hsl(47, 88%, 63%);
+}
 .cnt {
   margin: 5px;
 }
