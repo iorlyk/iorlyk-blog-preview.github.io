@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="index.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Blog preview card</title>
-</head>
-<body>
-<div class="main">
-  <img class="illustration-article" src="./assets/images/illustration-article.svg" type="image/svg" alt="illustration-article">
- <span class="text">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <div class="card">
+          <div class="content">
+            <img
+              class="content__illustration"
+              src="./assets/images/illustration-article.svg"
+              type="image/svg"
+              alt="illustration-article"
+            />
 
-   <p>Learning</p>
- 
-   <p>Published 21 Dec 2023</p>
- 
-   <p>HTML & CSS foundations</p>
- 
-   <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
- 
-   <p> <img class="img-av" src="./assets/images/image-avatar.webp" type="img/webp" alt="image-avatar"> Greg Hooper</p>
-   
- </span>
-</div>
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.instagram.com/iorlyk">Illia Orlyk || @iorlyk</a>.
-  </footer>
-</body>
+            <h3 class="content_butt cnt">Learning</h3>
+
+            <p class="content__subtitle cnt">Published 21 Dec 2023</p>
+
+            <h2 class="content__title cnt">HTML & CSS foundations</h2>
+
+            <p class="content__text cnt">
+              These languages are the backbone of every website, defining
+              structure, content, and presentation.
+            </p>
+
+            <p class="content__author cnt">
+              <img
+                class="content__author__img-av"
+                src="./assets/images/image-avatar.webp"
+                type="img/webp"
+                alt="image-avatar"
+              />
+              Greg Hooper
+            </p>
+          </div>
+        </div>
+      <footer class="footer">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.instagram.com/iorlyk">Illia Orlyk || @iorlyk</a>.
+      </footer>
+    </div>
+  </body>
 </html>
