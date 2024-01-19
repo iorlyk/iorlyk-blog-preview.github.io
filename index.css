@@ -14,7 +14,7 @@ body p {
 .main {
   width: 400px;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: 20% auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
